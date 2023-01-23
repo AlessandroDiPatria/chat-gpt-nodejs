@@ -9,7 +9,7 @@ const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-const api = "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";
+
 
 const openai = new OpenAIApi(configuration);
 const port = process.env.PORT || 5080
